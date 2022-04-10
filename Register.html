@@ -11,25 +11,30 @@
     <div class="sign">
         <h1 class="heading">Sign In</h1>
         <div class="users">
-            <label for="fname"><b>First Name</b></label>
-            <input type="text" placeholder="First Name" name="fname" required/>
+            <div class="main1">
+                <label for="fname"><b>UserName</b></label>
+                <input type="text" placeholder="UserName" name="fname" required/>
+                
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required/>
 
-            <label for="lname"><b>Last Name</b></label>
-            <input type="text" placeholder="Last Name" name="lname" required/>
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="abcdef@gmail.com" name="email" required/>
 
-            <label for="email"><b>Email</b></label>
-            <input type="email" placeholder="abcdef@gmail.com" name="email" required/>
+                <button type="submit">Next</button>
+            </div>
 
-            <label for="phone"><b>Number</b></label>
-            <input type="number" placeholder="1234567890" name="phone" required/>
+            <div class="main2" hidden>
+                <label for="phone"><b>Number</b></label>
+                <input type="number" placeholder="1234567890" name="phone" required/>
 
-            <label for="age"><b>Age</b></label>
-            <input type="number" placeholder="25" name="age" required/>
+                <label for="age"><b>Age</b></label>
+                <input type="number" placeholder="25" name="age" required/>
 
-            <label for="password"><b>Passward</b></label>
-            <input type="password" placeholder="Enter Passward" name="password" required/>
+                
+                <button type="submit">Register</button>
+            </div>
 
-            <button type="submit">Register</button>
         </div>
         <div class="container">
             <span>Already have account?<a href="Signin.html">Signin</a></span>

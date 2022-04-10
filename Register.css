@@ -2,12 +2,13 @@ body {
     background-image: url("images/istockphoto-1274428125-170667a.jpg");
     background-size: 100% 100%;
     font-family: cursive;
+    color: white;
   }
   .sign{
     margin: auto;
     width: 30%;
     background-color: #666;
-    height: 670px;
+    height: 100%;
     border-radius: 10px;
   }
 
@@ -32,6 +33,7 @@ body {
     width: 100%;
     border: none;
   }
+  
   button:hover {
     background-color: white;
     color: black;
