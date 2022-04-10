@@ -1,0 +1,52 @@
+*{
+    color: white;
+}
+
+body{
+    margin: 0px;
+}
+
+.navbar{
+    width: 100%;
+}   
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #555;
+}
+
+li, a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo{
+    float: left;
+    margin: 20px;
+}
+
+.rside{
+    float: right;
+    margin: 20px;
+}
+
+#signin{
+    background-color: aqua;
+}
+
+#signin:hover{
+    background-color: blue;
+}
+
+.rside:hover{
+    background-color: blue;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
