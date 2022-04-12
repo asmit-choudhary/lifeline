@@ -4,9 +4,7 @@
 
 body{
     margin: 0px;
-    background-image: url("images/background.jpg");
-    background-size: 100% 1500%;
-
+    background-color: lightgreen;
 }
 
 .navbar{
@@ -30,16 +28,10 @@ li, a{
 .logo{
     float: left;
     margin: 10px;
-    height: 32px;
+    height: 25px;
 }
 
 .rside{
     float: right;
     margin: 20px;
-    
-}
-
-img{
-    width: 100%;
-    height: 100%;
 }

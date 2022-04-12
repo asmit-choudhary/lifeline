@@ -53,13 +53,15 @@ body {
     border: 1px solid gray;
     box-sizing: border-box;
   }
+
   .container{
     text-align: center;
     padding-top: 16px;
+    padding-bottom: 10px;
     background-color: #666;
     border-radius: 5px;
   }
   
   a{
-    color: firebrick;
+    color: red;
   }
