@@ -1,67 +1,88 @@
 body {
-    background-image: url("images/istockphoto-1274428125-170667a.jpg");
-    background-size: 100% 100%;
-    font-family: cursive;
-    color: white;
-  }
-  .sign{
-    margin: auto;
-    width: 30%;
-    background-color: #666;
-    height: 100%;
-    border-radius: 10px;
-  }
+  background-image: url("images/istockphoto-1274428125-170667a.jpg");
+  background-size: 100% 150%;
+  font-family: cursive;
+  color: white;
+}
 
-  .heading {
-    padding: 20px;
-    text-align: center;
-    margin-top: 30px;
-  }
+.sign {
+  margin: auto;
+  margin-top: 50px;
+  width: 28%;
+  background-color: #666;
+  height: 100%;
+  border-radius: 10px;
+}
 
-  .users {
-    padding: 20px;
-  }
+.heading {
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
 
-  button {
-    border-radius: 5px;
-    background-color: aqua;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    border: none;
-  }
-  
-  button:hover {
-    background-color: white;
-    color: black;
-    font-weight: bolder;
-    border: none;
-  }
+.users {
+  padding: 20px;
+}
 
-  input[type="text"],
-  input[type="number"],
-  input[type="email"],
-  input[type="password"] {
-    border-radius: 5px;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid gray;
-    box-sizing: border-box;
-  }
+button {
+  border-radius: 5px;
+  background-color: aqua;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+}
 
-  .container{
-    text-align: center;
-    padding-top: 16px;
-    padding-bottom: 10px;
-    background-color: #666;
-    border-radius: 5px;
-  }
-  
-  a{
-    color: red;
-  }
+button:hover {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: none;
+}
+
+.hid {
+  display: none;
+}
+
+.act {
+  display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"] {
+  border-radius: 5px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  background-color: #666;
+  border-radius: 5px;
+}
+
+a {
+  color: red;
+}
+
+.main2{
+  margin-top: -10px;
+}
+
+.main3{
+  margin-top: -20px;
+  margin-bottom: -2px;
+}

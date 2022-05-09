@@ -1,25 +1,28 @@
 *{
-    color: white;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
     margin: 0px;
-    background-image: url("images/background.jpg");
-    background-size: 100% 1500%;
+}
 
+.image-set{
+   background-image: url("./images/GettyImages-927897070.jpg");
+   width: 100%;
 }
 
 .navbar{
     width: 100%;
-}   
-
-ul{
+    font-size: larger;
+    background-color: #999;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #555;
-}
+}   
 
 li, a{
     display: block;
@@ -33,13 +36,92 @@ li, a{
     height: 32px;
 }
 
-.rside{
+.rside, .icons{
     float: right;
     margin: 20px;
-    
 }
 
 img{
     width: 100%;
     height: 100%;
+}
+
+h1{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+    color: #222;
+}
+
+h3{
+    padding-bottom: 30px;
+    padding-left: 120px;
+    color: #222;
+}
+
+h4{
+    padding-left: 120px;
+    color: #333;
+}
+
+
+.c-section {
+    margin-bottom: 2px;
+}
+
+.detail{
+    float: left;
+    width: 33.33%;
+    height: 300px;
+}
+
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.detail{
+    text-align: center;
+    padding: 100px;
+    border-color: #E9E9E9;
+}
+
+h2, p{
+    text-align: center;
+}
+
+.hea{
+    text-align: center;
+}
+
+.third{
+    padding-top: 60px;
+}
+
+.four{
+    padding-top: 60px;
+}
+
+.five{
+    padding-top: 70px;
+}
+
+h2{
+    padding-bottom: 5px;
+}
+
+.he{
+    text-align: justify;
+    padding-left: 300px;
+}
+
+.foot{
+    width: 100%;
+    font-size: larger;
+    background-color: #999;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }

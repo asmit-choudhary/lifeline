@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,47 @@
     <link rel="stylesheet" href="Register.css">
     <title>Register</title>
 </head>
+
 <body>
     <div class="sign">
         <h1 class="heading">Sign In</h1>
         <div class="users">
             <div class="main1">
                 <label for="fname"><b>UserName</b></label>
-                <input type="text" placeholder="UserName" name="fname" required/>
-                
+                <input type="text" placeholder="UserName" name="fname" maxlength="50" required />
+
                 <label for="password"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="password" required/>
+                <input type="password" placeholder="Enter Password" name="password" minlength="8" maxlength="14"
+                    required />
 
                 <label for="email"><b>Email</b></label>
-                <input type="email" placeholder="abcdef@gmail.com" name="email" required/>
+                <input type="email" placeholder="abcdef@gmail.com" name="email" maxlength="30" required />
 
-                <button type="submit">Next</button>
+                <button type="submit" id="next">Next</button>
             </div>
 
             <div class="main2" hidden>
                 <label for="phone"><b>Number</b></label>
-                <input type="number" placeholder="1234567890" name="phone" required/>
+                <input type="tel" placeholder="1234567890" name="phone" maxlength="10" required />
 
-                <label for="age"><b>Age</b></label>
-                <input type="number" placeholder="25" name="age" required/>
+                <label for="birthday">Birthday</label>
+                <input type="date" id="birthday" name="birthday" required>
 
-                
-                <button type="submit">Register</button>
+                <button type="submit" id="finish">Finish</button>
+            </div>
+
+            <div class="main3" hidden>
+                <label for="quantity">Age</label>
+                <input type="number" id="age" name="age" min="0" max="100" step="1" placeholder="20">
+
+                <form action="">
+                    <label for="gender"><b>Gender: <br> </b></label>
+                    <input type="radio" name="gender" value="male"> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="other"> Other
+                </form>
+
+                <button type="submit" id="register">Register</button>
             </div>
 
         </div>
@@ -40,5 +56,8 @@
             <span>Already have account?<a href="Signin.html">Signin</a></span>
         </div>
     </div>
+
+    <script src="Register.js"></script>
 </body>
+
 </html>
