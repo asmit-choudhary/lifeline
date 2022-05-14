@@ -9,6 +9,10 @@ body{
     margin: 0px;
 }
 
+.container{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .image-set{
    background-image: url("./images/GettyImages-927897070.jpg");
    width: 100%;
@@ -22,6 +26,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }   
 
 li, a{

@@ -1,6 +1,7 @@
 *{
-    color: white;
+    color: black;
 }
+
 
 body{
     margin: 0px;
@@ -10,6 +11,8 @@ body{
 .navbar{
     width: 100%;
     font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #999;
 }   
 
 ul{
@@ -35,4 +38,31 @@ li, a{
 .rside{
     float: right;
     margin: 20px;
+}
+
+.c-section {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.contactUs {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contactUs{
+    text-align: center;
+    padding: 120px;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #E9E9E9;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }

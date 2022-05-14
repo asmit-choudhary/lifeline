@@ -10,6 +10,7 @@ body {
 .navbar {
     width: 100%;
     font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 ul {
@@ -66,29 +67,6 @@ hr {
     width: 0;
     height: 300px;
 }
-
-/* #address {
-    text-align: center;
-    padding: 120px;
-    border-style: solid;
-    border-width: 0px 1px 0px 0px;
-    border-color: #E9E9E9;
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; 
-}
-
-#phone {
-    text-align: center;
-    padding: 120px;
-    border-style: solid;
-    border-width: 0px 1px 0px 0px;
-    border-color: #E9E9E9;
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-}
-
-#support {
-    text-align: center;
-    padding: 120px;
-} */
 
 .contactUs{
     text-align: center;
