@@ -5,7 +5,7 @@
 
 body{
     margin: 0px;
-    background-color: lightpink;
+    /* background-color: lightpink; */
 }
 
 .navbar{
@@ -44,6 +44,25 @@ li, a{
     margin-top: 10px;
     margin-bottom: 2px;
 }
+
+
+.contactdoc{
+    flex: 3;
+    width: 55%;
+    height: 33%;
+    margin-left: 20px;
+}
+
+.main{
+    display: flex;
+}
+
+.image-set
+{
+    width: 55%;
+    height: 30%
+}
+
 
 .contactUs {
     float: left;

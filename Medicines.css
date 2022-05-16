@@ -4,7 +4,7 @@
 
 body{
     margin: 0px;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 
 .navbar{
@@ -42,6 +42,23 @@ li, a{
 .c-section {
     margin-top: 10px;
     margin-bottom: 2px;
+}
+
+.contactdoc{
+    flex: 3;
+    width: 55%;
+    height: 33%;
+    margin-left: 20px;
+}
+
+.main{
+    display: flex;
+}
+
+.image-set
+{
+    width: 55%;
+    height: 30%
 }
 
 .contactUs {
