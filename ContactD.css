@@ -69,6 +69,7 @@ li, a{
     width: 33.33%;
     padding: 10px;
     height: 300px;
+    /* border: 1px solid #555; */
 }
 
 .main:after {

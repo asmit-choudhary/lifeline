@@ -11,46 +11,49 @@
 
 <body>
     <div class="sign">
-        <h1 class="heading">Sign In</h1>
+        <h1 class="heading">Register</h1>
         <div class="users">
-            <div class="main1">
-                <label for="fname"><b>UserName</b></label>
-                <input type="text" placeholder="UserName" name="fname" maxlength="50" required />
+            <form action="">
+                <div class="main1">
+                        <label for="fname"><b>UserName</b></label>
+                        <input type="text" placeholder="UserName" name="fname" maxlength="50" required />
 
-                <label for="password"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="password" minlength="8" maxlength="14"
-                    required />
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="password" minlength="8" maxlength="14"
+                            required />
 
-                <label for="email"><b>Email</b></label>
-                <input type="email" placeholder="abcdef@gmail.com" name="email" maxlength="30" required />
+                        <label for="email"><b>Email</b></label>
+                        <input type="email" placeholder="abcdef@gmail.com" name="email" maxlength="30" required />
 
-                <button type="submit" id="next">Next</button>
-            </div>
+                        <input type="submit" id="next" class="button" value="Next"></input>
+                </div>
 
-            <div class="main2" hidden>
-                <label for="phone"><b>Number</b></label>
-                <input type="tel" placeholder="1234567890" name="phone" maxlength="10" required />
+                <div class="main2" hidden>
+                        <label for="phone"><b>Mobile</b></label>
+                        <input type="tel" placeholder="1234567890" name="phone" maxlength="10" required />
 
-                <label for="birthday">Birthday</label>
-                <input type="date" id="birthday" name="birthday" required>
+                        <label for="birthday"><b>D.O.B</b></label>
+                        <input type="date" id="birthday" name="birthday" required>
 
-                <button type="submit" id="finish">Finish</button>
-            </div>
+                        <input type="submit" id="finish" value="Finish" class="button"></input>
+                </div>
 
-            <div class="main3" hidden>
-                <label for="quantity">Age</label>
-                <input type="number" id="age" name="age" min="0" max="100" step="1" placeholder="20">
+                <div class="main3" hidden>
+                    <form action="">
+                        <label for="quantity">Age</label>
+                        <input type="number" id="age" name="age" min="0" max="100" step="1" placeholder="20">
 
-                <form action="">
-                    <label for="gender"><b>Gender: <br> </b></label>
-                    <input type="radio" name="gender" value="male"> Male<br>
-                    <input type="radio" name="gender" value="female"> Female<br>
-                    <input type="radio" name="gender" value="other"> Other
-                </form>
+                        <form action="">
+                            <label for="gender"><b>Gender: <br></b></label>
+                            <input type="radio" name="gender" value="male">Male<br>
+                            <input type="radio" name="gender" value="female">Female<br>
+                            <input type="radio" name="gender" value="other">Other
+                        </form>
 
-                <button type="submit" id="register">Register</button>
-            </div>
-
+                        <form action=""><input type="submit" value="Submit" class="button"></input></form>
+                    </form>
+                </div>
+            </form>
         </div>
         <div class="container">
             <span>Already have account?<a href="Signin.html">Signin</a></span>

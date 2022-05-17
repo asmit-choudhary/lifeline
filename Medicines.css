@@ -1,20 +1,20 @@
-*{
+* {
     color: black;
 }
 
-body{
+body {
     margin: 0px;
     /* background-color: lightgreen; */
 }
 
-.navbar{
+.navbar {
     width: 100%;
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #999;
-}   
+}
 
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,19 +22,20 @@ ul{
     background-color: #555;
 }
 
-li, a{
+li,
+a {
     display: block;
     text-align: center;
     text-decoration: none;
 }
 
-.logo{
+.logo {
     float: left;
     margin: 10px;
     height: 25px;
 }
 
-.rside{
+.rside {
     float: right;
     margin: 20px;
 }
@@ -44,19 +45,26 @@ li, a{
     margin-bottom: 2px;
 }
 
-.contactdoc{
+.contactdoc {
     flex: 3;
     width: 55%;
     height: 33%;
     margin-left: 20px;
 }
 
-.main{
+.main {
     display: flex;
 }
 
-.image-set
-{
+p {
+    padding: 3px;
+    white-space: nowrap;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.image-set {
     width: 55%;
     height: 30%
 }
@@ -67,6 +75,10 @@ li, a{
     padding: 10px;
     height: 300px;
 }
+/* 
+.box{
+    border: 1px solid #000000;
+} */
 
 .main:after {
     content: "";
@@ -74,7 +86,7 @@ li, a{
     clear: both;
 }
 
-.contactUs{
+.contactUs {
     text-align: center;
     padding: 120px;
     border-style: solid;
