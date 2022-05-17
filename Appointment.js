@@ -1,8 +1,15 @@
-const myAppointment = document.querySelector("#myap");
-const createAppointment = document.querySelector("#createap");
-const appointMents = document.querySelector("#appoint");
+const myDrop = document.querySelector("#myDropdown");
+const dropBtn = document.querySelector(".dropbtn");
 
-appointMents.addEventListener("click", ()=>{
-    myAppointment.classList.remove("hidden");
-    createAppointment.classList.remove("hidden");
-})
+function myfuction() {
+    myDrop.classList.toggle("show");
+}
+
+window.onclick = function (e) {
+    if (!e.target.matches('dropBtn')) {
+        var myDown = myDrop;
+        if (myDown.classList.contains('show')) {
+            myDown.classList.remove('show');
+        }
+    }
+}

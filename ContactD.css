@@ -5,7 +5,7 @@
 
 body{
     margin: 0px;
-    /* background-color: lightpink; */
+    background-image: url("./images/beautiful-pastel-social-media-banner-template-with-minimal-abstract-organic-shapes-composition-in-trendy-contemporary-collage-style-vector.jpg");
 }
 
 .navbar{
@@ -20,7 +20,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #555;
+    background-color: #999
 }
 
 li, a{

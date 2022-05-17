@@ -13,7 +13,7 @@
     <div class="sign">
         <h1 class="heading">Register</h1>
         <div class="users">
-            <form action="">
+            <form action="./registerdata.php" method="post">
                 <div class="main1">
                         <label for="fname"><b>UserName</b></label>
                         <input type="text" placeholder="UserName" name="fname" maxlength="50" required />
@@ -25,42 +25,42 @@
                         <label for="email"><b>Email</b></label>
                         <input type="email" placeholder="abcdef@gmail.com" name="email" maxlength="30" required />
 
-                        <input type="submit" id="next" class="button" value="Next"></input>
-                </div>
-
-                <div class="main2" hidden>
+                        <!-- <input type="submit" id="next" class="button" value="Next"></input> -->
+                <!-- </div>
+                <br>
+                <div class="main2"> -->
                         <label for="phone"><b>Mobile</b></label>
                         <input type="tel" placeholder="1234567890" name="phone" maxlength="10" required />
 
                         <label for="birthday"><b>D.O.B</b></label>
                         <input type="date" id="birthday" name="birthday" required>
 
-                        <input type="submit" id="finish" value="Finish" class="button"></input>
-                </div>
-
-                <div class="main3" hidden>
-                    <form action="">
+                        <!-- <input type="submit" id="finish" value="Finish" class="button"></input> -->
+                <!-- </div>
+                <br>
+                <div class="main3" >
+                    <form action=""> -->
                         <label for="quantity">Age</label>
                         <input type="number" id="age" name="age" min="0" max="100" step="1" placeholder="20">
 
-                        <form action="">
                             <label for="gender"><b>Gender: <br></b></label>
-                            <input type="radio" name="gender" value="male">Male<br>
-                            <input type="radio" name="gender" value="female">Female<br>
-                            <input type="radio" name="gender" value="other">Other
-                        </form>
+                            <input type="radio" name="gender" value="m">Male<br>
+                            <input type="radio" name="gender" value="f">Female<br>
+                            <input type="radio" name="gender" value="o">Other
 
-                        <form action=""><input type="submit" value="Submit" class="button"></input></form>
-                    </form>
-                </div>
-            </form>
+                        <!-- <form action=""> -->
+                            <button type="submit" class="registerbtn">Register</button>
+                        </form>
+                    <!-- </form> -->
+                <!-- </div>
+            </form> -->
         </div>
         <div class="container">
             <span>Already have account?<a href="Signin.html">Signin</a></span>
         </div>
     </div>
 
-    <script src="Register.js"></script>
+    <!-- <script src="Register.js"></script> -->
 </body>
 
 </html>

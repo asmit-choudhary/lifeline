@@ -1,8 +1,7 @@
 body {
-    background-image: url("images/istockphoto-1274428125-170667a.jpg");
+    background-image: url("images/light-purple-color-geometric-modern-background-for-web-design-templates-posters-vector.jpg");
     background-repeat: no-repeat;
     background-size: 100% 130%;
-    box-shadow: 5px 5px 5px #444;
     font-family: cursive;
     color: white;
   }
@@ -25,7 +24,7 @@ body {
     padding: 20px;
   }
 
-  .button {
+  button {
     border-radius: 5px;
     background-color: aqua;
     color: white;
@@ -37,14 +36,14 @@ body {
     border: none;
   }
 
-  .button:hover {
+  button:hover {
     background-color: white;
     color: black;
     font-weight: bolder;
     border: none;
   }
 
-  .button:visited{
+  button:visited{
     background-color: #666;
     color: white;
     font-weight: bolder;

@@ -4,7 +4,9 @@
 
 body {
     margin: 0px;
-    /* background-color: lightgreen; */
+    background-image: url("./images/162950-red-and-yellow-water-color-background.jpg");
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
 }
 
 .navbar {
@@ -19,7 +21,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #555;
+    background-color: #999;
 }
 
 li,
