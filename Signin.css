@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/light-purple-color-geometric-modern-background-for-web-design-templates-posters-vector.jpg");
+    background-image: url("images/login-background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 130%;
     font-family: cursive;
@@ -26,7 +26,7 @@ body {
 
   button {
     border-radius: 5px;
-    background-color: aqua;
+    background-color: cornflowerblue;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;

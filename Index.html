@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital Management System</title>
     <link rel="stylesheet" href="Index.css" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="Appointment.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
+
 <body>
     <div class="navbar">
         <ul>
             <li class="logo"><img src="images/logo.jpg"></li>
             <li><a href="Signin.html" class="rside" id="signin">Register/SignIn</a></li>
             <li>
-                <section class="rside" >
-                    <option id="appoint" class="app">Appointment<option>
-                    <option id="myap" class="app" hidden>MY Appointments</option>
-                    <option id="createap" class="app" hidden>Create Appointments</option>
-                </section>
+                <form>
+                    <select id="appoint" class="rside" onclick="appointments()">
+                        <option id="mydropdown">Appointment</option>
+                        <option><a href="#"> My Appointment</a></option>
+                        <option><a href="Create.html"> Create Appointment</a></option>
+                    </select>
+                </form>
             </li>
             <li><a href="ContactD.html" class="rside">Doctor</a></li>
             <li><a href="Medicines.html" class="rside">Medicines</a></li>
@@ -38,10 +39,14 @@
                 <h4>LifeLine Clinic/Hospital Information Management System (HIMS) software helps <br>
                     deliver superior healthcare delivery for doctors, clinics and hospitals.</h4> <br>
                 <h3>
-                    <i class='fa fa-arrow-circle-right' style='font-size:25px;color:lightgreen'></i><b> For Clinic </b><br>
-                    <i class='fa fa-arrow-circle-right' style='font-size:25px;color:lightgreen'></i><b> For Medical Centers </b><br>
-                    <i class='fa fa-arrow-circle-right' style='font-size:25px;color:lightgreen'></i><b>For Hospitals </b><br>
-                    <i class='fa fa-arrow-circle-right' style='font-size:25px;color:lightgreen'></i><b>For Clinic Chains</b>
+                    <i class='fa fa-arrow-circle-right' style='font-size:25px;color:lightgreen'></i><b> For Clinic
+                    </b><br>
+                    <i class='fa fa-arrow-circle-right' style='font-size:25px;color:lightgreen'></i><b> For Medical
+                        Centers </b><br>
+                    <i class='fa fa-arrow-circle-right' style='font-size:25px;color:lightgreen'></i><b>For Hospitals
+                    </b><br>
+                    <i class='fa fa-arrow-circle-right' style='font-size:25px;color:lightgreen'></i><b>For Clinic
+                        Chains</b>
                 </h3>
             </div>
         </div>
@@ -54,17 +59,17 @@
                         <i class='far fa-credit-card' style='font-size:48px;color:rgb(95, 205, 95)'></i>
                         <h2>Scheduling with <br> Payments</h2>
                         <p>
-                            Specify your schedule, collect <br> 
-                            payments. Integrate the widget <br> 
-                            with your website and your mobile <br> 
+                            Specify your schedule, collect <br>
+                            payments. Integrate the widget <br>
+                            with your website and your mobile <br>
                             app. It's that simple! <br>
                         </p>
                     </div>
                     <div id="audio" class="detail">
                         <i class="fa fa-arrows-alt" style="font-size:48px;color:rgb(95, 205, 95)"></i>
                         <h2>HD Video/Audio</h2>
-                        <p>You can have a HD Video/Audio call <br> 
-                            with your patients - both on web <br> 
+                        <p>You can have a HD Video/Audio call <br>
+                            with your patients - both on web <br>
                             and app. <br>
                         </p>
                     </div>
@@ -72,9 +77,9 @@
                         <i class='fas fa-prescription-bottle-alt' style='font-size:48px;color:rgb(95, 205, 95)'></i>
                         <h2>E-Prescription</h2>
                         <p>
-                            A powerful but simple <br> 
-                            e-prescription (EMR) will allow you <br> 
-                            to prescribe and share medications <br> 
+                            A powerful but simple <br>
+                            e-prescription (EMR) will allow you <br>
+                            to prescribe and share medications <br>
                             and advise. <br>
                         </p>
                     </div>
@@ -82,13 +87,14 @@
             </section>
             <div class="third">
                 <h2>Clinic Management Software</h2>
-                <p>Handling patient bills and appointment used to be a chaotic scene in hospitals and clinics. 
-                    Not anymore! With the arrival of LifeLine's Clinic Management <br> Software, a systematic 
-                    process has evolved over the time. The best part of this software is that it has reduced 
+                <p>Handling patient bills and appointment used to be a chaotic scene in hospitals and clinics.
+                    Not anymore! With the arrival of LifeLine's Clinic Management <br> Software, a systematic
+                    process has evolved over the time. The best part of this software is that it has reduced
                     the use of paper, keeping all important <br> information in one place to access. Doctors could
-                    coordinate with other departments with great ease, regarding medical health records. The software has <br> 
+                    coordinate with other departments with great ease, regarding medical health records. The software
+                    has <br>
                     helped in saving time as prescriptions, bills and other calculations are maintained digitally. This
-                    helps Doctors to concentrate on their core activities. 
+                    helps Doctors to concentrate on their core activities.
                 </p>
             </div>
             <div class="four">
@@ -96,16 +102,16 @@
                     for Labs & Pharmacies
                 </h2>
                 <p class="he">
-                    A tech saviour for labs and pharmacies, the Medical Practice Management 
-                    Software has paved the way for a hassle-free management process. <br> 
+                    A tech saviour for labs and pharmacies, the Medical Practice Management
+                    Software has paved the way for a hassle-free management process. <br>
                     This medical software helps in generating patient bills and electronic test reports.
-                    Not just that, the doctors can also see the previous medical <br> 
+                    Not just that, the doctors can also see the previous medical <br>
                     history and prescribe medicines accordingly.
                 </p>
             </div>
             <div class="five">
                 <h2>Hospital Software</h2>
-                <p>Manage appointments, billing, lab, stock and inventory, pharmacy and more. Advanced EMR <br> 
+                <p>Manage appointments, billing, lab, stock and inventory, pharmacy and more. Advanced EMR <br>
                     to manage medical records and improve clinical care.
                 </p>
                 <section class="c-section">
@@ -114,9 +120,9 @@
                             <i class='far fa-calendar-alt' style='font-size:48px;color:skyblue'></i>
                             <h2>Manage OPD</h2>
                             <p>
-                                Organize your OPD into a paperless <br> 
-                                experience - from booking appointments, <br> 
-                                making payments, recording clinical data, <br> 
+                                Organize your OPD into a paperless <br>
+                                experience - from booking appointments, <br>
+                                making payments, recording clinical data, <br>
                                 getting prescription and lab reports. <br>
                             </p>
                         </div>
@@ -124,8 +130,8 @@
                             <i class='fas fa-laptop' style='font-size:48px;color:skyblue'></i>
                             <h2>IP Management</h2>
                             <p>
-                                Provide a connected experience with <br> 
-                                integrated billing, sample collection, <br> 
+                                Provide a connected experience with <br>
+                                integrated billing, sample collection, <br>
                                 automated lab and electronic test reports. <br>
                             </p>
                         </div>
@@ -133,7 +139,7 @@
                             <i class='fas fa-clinic-medical' style='font-size:48px;color:skyblue'></i>
                             <h2>E- Pharmacy, Stores & Lab </h2>
                             <p>
-                                Supports stock indenting, distributed <br> 
+                                Supports stock indenting, distributed <br>
                                 stores and lab management. <br>
                             </p>
                         </div>
@@ -145,19 +151,32 @@
     <div class="foot">
         <ul>
             <li class="icons"><a href="https://www.instagram.com/">
-                <i class="fab fa-instagram" aria-hidden="true" style='font-size:36px;'></i>
-            </a></li>
+                    <i class="fab fa-instagram" aria-hidden="true" style='font-size:36px;'></i>
+                </a></li>
             <li class="icons"><a href="https://www.facebook.com/">
-                <i class="fab fa-facebook-square" aria-hidden="true"style='font-size:36px;'></i>
-            </a></li>
+                    <i class="fab fa-facebook-square" aria-hidden="true" style='font-size:36px;'></i>
+                </a></li>
             <li class="icons"><a href="https://twitter.com/Aviraj06703775">
-                <i class="fab fa-twitter" style='font-size:36px;'></i>
-            </a></li>
+                    <i class="fab fa-twitter" style='font-size:36px;'></i>
+                </a></li>
             <li class="icons"><a href="https://www.linkedin.com/feed/">
-                <i class="fab fa-linkedin" style='font-size:36px;'></i>
-            </a></li>
+                    <i class="fab fa-linkedin" style='font-size:36px;'></i>
+                </a></li>
         </ul>
     </div>
-    <script src="Appointment.js"></script>
+    <!-- <script src="Appointment.js"></script> -->
+    <script>
+        const myDrop = document.querySelector("#myDropdown");
+
+        // function myfuction() {
+        //     myDrop.classList.add("hid");
+        // }
+
+        function apponitments() {
+            var myappoint = document.getElementById("appoint");
+            document.value = myappoint.option.text;
+        }
+    </script>
 </body>
+
 </html>

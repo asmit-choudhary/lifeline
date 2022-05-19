@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Create.css">
+    <title>Create Appointment</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li class="logo"><img src="images/logo.jpg"></li>
+            <li><a href="Signin.html" class="rside" id="signin">Register/SignIn</a></li>
+            <li>
+                <form>
+                    <select id="appoint" class="rside" onclick="appointments()">
+                        <option id="mydropdown">Appointment</option>
+                        <option><a href="#"> My Appointment</a></option>
+                        <option><a href="#"> Create Appointment</a></option>
+                    </select>
+                </form>
+            </li>
+            <li><a href="ContactD.html" class="rside">Doctor</a></li>
+            <li><a href="Medicines.html" class="rside">Medicines</a></li>
+            <li><a href="contactus.html" class="rside">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="main" id="move1">
+            <h2>Machine Appointment</h2>
+            <div class="sub" id="sub1" hidden></div>
+        </div>
+        <div class="main"  id="move2">
+            <h2>Doctor Appointment</h2>
+            <div class="sub" id="sub2" hidden></div>
+        </div>
+    </div>
+</body>
+</html>
